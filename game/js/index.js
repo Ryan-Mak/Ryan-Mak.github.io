@@ -78,8 +78,8 @@ $(document).ready(function() {
         $('#rules').show();
         $('copyright').show();
         $('#playButton').show();
-        location.reload();
         score = 0;
+        document.getElementById('points').innerHTML = score;
 
 
       } else {
