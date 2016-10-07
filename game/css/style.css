@@ -1,0 +1,171 @@
+@import 'https://fonts.googleapis.com/css?family=Asap';
+body {
+  background-image: url("http://cdn.wallpapersafari.com/49/4/XU1AKh.jpg");
+  font-family: Asap;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#Title {
+  font-size: 40px;
+  top-margin: 10px;
+  color: #e6ac00;
+  position: relative;
+  top: -40px;
+}
+
+#Name {
+  font-size: 35px;
+  color: #fff01a;
+  margin-bottom: 20px;
+}
+
+#playLink {
+  margin-top: 50px;
+  font-size: 70px;
+  margin-bottom: 25px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+#playLink:hover {
+  cursor: pointer;
+}
+
+#scoreBox {
+  /*For score box decoration and border*/
+  border: 2px solid black;
+  width: 20%;
+  height: 80px;
+  text-align: center;
+  font-family: Times New Roman;
+  font-size: 15px;
+  color: black;
+
+  top: 10px;
+}
+
+#timeLeftBox {
+  /*For time left box decoration and border*/
+  border: 2px solid black;
+  width: 20%;
+  height: 80px;
+  text-align: center;
+  font-family: Times New Roman;
+  font-size: 15px;
+  color: black;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-right: 10px;
+}
+
+#resetButton {
+  /*For the reset button*/
+  font-size: 50px;
+  margin-bottom: 10px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-right: 10px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+#resetButton:hover {
+  cursor: pointer;
+}
+
+.enemy {
+  position: relative;
+  display: inline-block;
+}
+
+.enemyPhoto {
+  /*For the enemy pictures*/
+  width: 100px;
+}
+
+#rules {
+  /* Rules Formating*/
+  font-size: 25px;
+  text-align: center;
+  font-family: Asap;
+}
+
+#copyright {
+  /*copyright notice formatting*/
+  font-size: 10px;
+  bottom: 0;
+  text-align: center;
+  font-family: Asap;
+}
+
+.enemyBox {
+  margin-top:;
+  position: relative;
+  height: 800px;
+}
+
+#heavy1 {
+  position: absolute;
+  top: 500px;
+  left: 750px;
+}
+
+#heavy2 {
+  position: absolute;
+  top: 350px;
+  left: 1300px;
+}
+
+#heavy3 {
+  position: absolute;
+  top: 400px;
+  left: 500px;
+}
+
+#heavy4 {
+  position: absolute;
+  top:  641px;
+  left: 0px;
+}
+
+#heavy5 {
+  position: absolute;
+  top: 590px;
+  left: 400px;
+}
+
+#heavy6 {
+  position: absolute;
+  top: 410px;
+  left: 1000px;
+}
+
+#heavy7 {
+  position: absolute;
+  top: 560px;
+  left: 1200px;
+}
+
+#heavy8 {
+  position: absolute;
+  top: 520px;
+  left: 900px;
+}
+
+#heavy9 {
+  position: absolute;
+  top: 450px;
+  left: 200px;
+}
+
+#heavy10 {
+  position: absolute;
+  top: 700px;
+  left: 600px;
+}
