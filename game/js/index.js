@@ -45,6 +45,7 @@ $(document).ready(function() {
     $('#quitButton').hide();
     $('.enemyBox').hide();
     timeLeft= 30;
+    location.reload();
      document.getElementById('time').innerHTML = timeLeft;
   });
 
@@ -77,6 +78,9 @@ $(document).ready(function() {
         $('#rules').show();
         $('copyright').show();
         $('#playButton').show();
+        location.reload();
+        score = 0;
+
 
       } else {
         timeLeft--;
